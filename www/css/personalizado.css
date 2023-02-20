@@ -1,0 +1,25 @@
+.toolbar{
+    height: 80px;
+}
+
+.tab-link{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.toolbar-inner .link{    
+    flex:1;
+    height: 80px;  
+    line-height: 25px; 
+	font-weight:bold;    
+}
+
+.toolbar-inner .link:not(.active){
+    color:gray;
+	font-weight:normal;
+}
+
+.toolbar-inner > .link i{
+    font-size: 28px;
+}
